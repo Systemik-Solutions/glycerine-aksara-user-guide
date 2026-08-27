@@ -112,7 +112,8 @@ export default defineConfig({
             { text: 'Overview', link: '/concepts/' },
             { text: 'The Data Model', link: '/concepts/data-model' },
             { text: 'Editions', link: '/concepts/editions' },
-            { text: 'Aksaras and Transliteration', link: '/concepts/aksaras' },
+            { text: 'Akṣaras and Transliteration', link: '/concepts/aksaras' },
+            { text: 'The Shared Lexicon', link: '/concepts/lexicon' },
             { text: 'Annotations', link: '/concepts/annotations' },
             { text: 'IIIF and Deep-Zoom Images', link: '/concepts/iiif' },
           ],
@@ -125,6 +126,7 @@ export default defineConfig({
           items: [
             { text: 'Glossary', link: '/reference/glossary' },
             { text: 'Troubleshooting', link: '/reference/troubleshooting' },
+            { text: 'The IIIF Endpoints', link: '/reference/iiif-api' },
           ],
         },
       ],
