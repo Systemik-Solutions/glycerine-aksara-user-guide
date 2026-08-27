@@ -1,22 +1,38 @@
 /**
  * Glycerine Aksara user guide — theme overrides.
  *
- * Brand colours are intentionally minimal for now; align them with the
- * PrimeVue theme used by the Viewer and Editor once that palette is settled.
+ * Brand colours track the Viewer and Editor, which both run PrimeVue's Aura
+ * preset with `primary` remapped onto the `blue` ramp (see `BluePreset` in
+ * each app's src/main.js). That ramp is Tailwind blue; the shades below are
+ * taken from it verbatim.
+ *
+ *   blue.400 #60a5fa   blue.500 #3b82f6   blue.600 #2563eb   blue.700 #1d4ed8
+ *
+ * VitePress reads the three brand steps as: brand-1 is link and accent text,
+ * brand-3 is the filled-button background, brand-2 the hover between them.
  */
 
 :root {
-  --vp-c-brand-1: #8a5a2b;
-  --vp-c-brand-2: #a06d38;
-  --vp-c-brand-3: #b98249;
-  --vp-c-brand-soft: rgba(184, 130, 73, 0.14);
+  /* brand-1 is body-copy sized link text, so it takes the darkest step:
+     6.7:1 on white. brand-3/2/1 then run 500 → 600 → 700, which is exactly
+     Aura's own primary color / hoverColor / activeColor sequence — a filled
+     button here behaves like a PrimeVue primary button in the apps. */
+  --vp-c-brand-1: #1d4ed8;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #3b82f6;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.14);
 }
 
 .dark {
-  --vp-c-brand-1: #d9a56a;
-  --vp-c-brand-2: #c69257;
-  --vp-c-brand-3: #a97a45;
-  --vp-c-brand-soft: rgba(217, 165, 106, 0.16);
+  /* The apps set `darkModeSelector: false`, so they have no dark palette to
+     copy. These are the same ramp read from the other end: blue.400 for text
+     on the dark surface (6.8:1), stepping down to blue.600 for button fills
+     so white label text stays legible. blue.400 at 16% is also what Aura's
+     own dark scheme uses for a highlight wash. */
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
 }
 
 /**
