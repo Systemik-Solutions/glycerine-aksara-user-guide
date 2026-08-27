@@ -17,7 +17,9 @@ export default defineConfig({
     ['link', { rel: 'icon', href: `${base}favicon.svg`, type: 'image/svg+xml' }],
   ],
   themeConfig: {
-    logo: '/images/logo.svg',
+    // Two files rather than `currentColor`: VitePress renders the nav logo as
+    // an <img>, so the SVG cannot inherit the page's text colour.
+    logo: { light: '/images/logo.svg', dark: '/images/logo-dark.svg' },
     siteTitle: 'Glycerine Aksara',
 
     nav: [
@@ -43,7 +45,7 @@ export default defineConfig({
             { text: 'Navigating the Image', link: '/viewer/navigating-images' },
             { text: 'Reading the Transliteration', link: '/viewer/transliteration' },
             { text: 'Translation and Chāyā', link: '/viewer/translation-and-chaya' },
-            { text: 'Inspecting an Aksara', link: '/viewer/inspecting-aksaras' },
+            { text: 'Inspecting an Akṣara', link: '/viewer/inspecting-aksaras' },
             { text: 'Word and Lemma Details', link: '/viewer/word-details' },
           ],
         },

@@ -7,7 +7,7 @@ place beside it.
 ![The glossary view: a filterable table of lemmas with translation, cognate, part of speech, and attestations](/images/viewer/glossary-view.jpg)
 
 Opening the glossary switches the header to **Token** scope and clears any selection. Lemmas attach
-to words, not to single aksaras, so syllable scope has nothing to say here.
+to words, not to single akṣaras, so syllable scope has nothing to say here.
 
 ## The columns
 

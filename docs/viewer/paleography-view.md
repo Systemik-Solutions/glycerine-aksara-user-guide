@@ -26,9 +26,9 @@ scribe distinguishes them.
 
 The **Polygon** switch changes how each cut-out is clipped:
 
-- **Off** (default) — a padded rectangle around the aksara. Shows the sign in its immediate context:
+- **Off** (default) — a padded rectangle around the akṣara. Shows the sign in its immediate context:
   neighbouring strokes, the state of the surface, the line above and below.
-- **On** — clipped to the recorded outline of the aksara itself. Isolates the sign from everything
+- **On** — clipped to the recorded outline of the akṣara itself. Isolates the sign from everything
   around it, which is what you want when comparing forms.
 
 Switch between them freely; it is the same data drawn two ways.
@@ -44,6 +44,6 @@ follow it back to its place in the text. Hovering a cut-out previews the same hi
 
 ## Related
 
-- [Inspecting an Aksara](/viewer/inspecting-aksaras) — one sign, enlarged and zoomable.
+- [Inspecting an Akṣara](/viewer/inspecting-aksaras) — one sign, enlarged and zoomable.
 - [Navigating the Image](/viewer/navigating-images#outlines-and-labels) — seeing the same outlines in
   place on the manuscript.

@@ -9,43 +9,43 @@ of the pane and aligned to the top of the image.
 | ---------- | -------------------------------------------- |
 | Zoom       | Scroll wheel, or pinch on a trackpad          |
 | Pan        | Drag the image                                |
-| Select     | Click an outlined aksara                      |
-| Deselect   | Click anywhere on the image outside an aksara |
+| Select     | Click an outlined akṣara                      |
+| Deselect   | Click anywhere on the image outside an akṣara |
 
-A single click never zooms — it is reserved for selecting, so that clicking an aksara to read it
+A single click never zooms — it is reserved for selecting, so that clicking an akṣara to read it
 does not also move the image under you.
 
 ## Outlines and labels
 
 Open **Image settings** (the gear on the image pane toolbar) for two switches:
 
-**Outlines** draws a box or polygon around every aksara the edition records on this canvas. This is
-how you see the editor's segmentation: where one aksara was judged to end and the next to begin,
-and — where the surface is lost — how many aksaras the restoration assumes. Reconstructed aksaras
+**Outlines** draws a box or polygon around every akṣara the edition records on this canvas. This is
+how you see the editor's segmentation: where one akṣara was judged to end and the next to begin,
+and — where the surface is lost — how many akṣaras the restoration assumes. Reconstructed akṣaras
 with nothing left on the surface show as empty boxes in a row, so a long lacuna is visible as
 exactly the number of signs the editor claims for it.
 
-**Syllable transliterations** prints each aksara's reading over the image.
+**Syllable transliterations** prints each akṣara's reading over the image.
 
 Both are off by default and reset when you reload the page.
 
 ::: tip
-With Syllable transliterations on but Outlines off, labels appear only for the aksara you are
+With Syllable transliterations on but Outlines off, labels appear only for the akṣara you are
 hovering or have selected. That keeps the image clean while still telling you what you are pointing
 at.
 :::
 
 ## Hovering and selecting
 
-Hovering an aksara highlights it in blue, and simultaneously highlights the matching syllable in the
+Hovering an akṣara highlights it in blue, and simultaneously highlights the matching syllable in the
 transliteration. Clicking selects, in amber, and opens the Details pane.
 
-What gets highlighted depends on the scope set in the header: in **Syllable** scope, one aksara; in
-**Token** scope, every aksara of the whole word. See
+What gets highlighted depends on the scope set in the header: in **Syllable** scope, one akṣara; in
+**Token** scope, every akṣara of the whole word. See
 [Reading the Transliteration](/viewer/transliteration#syllable-scope-and-token-scope).
 
 Selection also works in the other direction. Clicking a syllable in the text pans the image to
-centre the corresponding aksara — and if that aksara is on a different fragment, the Viewer switches
+centre the corresponding akṣara — and if that akṣara is on a different fragment, the Viewer switches
 canvases to get there.
 
 ## Moving between fragments
@@ -69,5 +69,5 @@ first.
 
 ## Related
 
-- [Inspecting an Aksara](/viewer/inspecting-aksaras) — enlarging a single sign.
+- [Inspecting an Akṣara](/viewer/inspecting-aksaras) — enlarging a single sign.
 - [Paleography View](/viewer/paleography-view) — comparing one sign across the whole manuscript.

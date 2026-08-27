@@ -31,7 +31,7 @@ In **Akṣaras** mode, the round button at the top left of the image arms the po
 An on-screen prompt repeats this while the tool is armed, along with **Cancel drawing**.
 
 Trace the ink rather than boxing it. The outline is what the Viewer cuts out for the paleography
-view and the aksara inspector, so a tight outline gives a usable sign chart and a loose one does not.
+view and the akṣara inspector, so a tight outline gives a usable sign chart and a loose one does not.
 
 Completing the shape opens the akṣara editor on the right.
 

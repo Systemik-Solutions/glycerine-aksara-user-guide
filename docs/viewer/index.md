@@ -9,8 +9,8 @@ No account is needed. Anyone with the link can read.
 
 ## What it gives you
 
-- **Deep-zoom images** of each fragment, with the aksaras of the edition outlined on the surface.
-- **A transliteration** in which every syllable is linked to its aksara. Click either one and the
+- **Deep-zoom images** of each fragment, with the akṣaras of the edition outlined on the surface.
+- **A transliteration** in which every syllable is linked to its akṣara. Click either one and the
   other lights up.
 - **Three display modes** — diplomatic, hybrid, and reconstructed — over the same underlying record,
   so you can read what is on the surface or what the editor restores, without switching documents.

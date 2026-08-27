@@ -22,11 +22,11 @@ features:
     link: /viewer/
     linkText: Read the Viewer guide
   - title: Editor
-    details: Transcribe manuscripts, mark aksaras, attach lemmas, and publish an edition. For scholars contributing to the corpus.
+    details: Transcribe manuscripts, mark akṣaras, attach lemmas, and publish an edition. For scholars contributing to the corpus.
     link: /editor/
     linkText: Read the Editor guide
   - title: Concepts
-    details: The ideas both applications share — editions, aksaras, annotations, and the data model that connects them.
+    details: The ideas both applications share — editions, akṣaras, annotations, and the data model that connects them.
     link: /concepts/
     linkText: Understand the model
 ---

@@ -6,9 +6,9 @@
   PrimeIcons is MIT licensed, Copyright (c) 2018-2021 PrimeTek.
   https://github.com/primefaces/primeicons
 
-  Light-theme variant. See logo-dark.svg for the dark-theme counterpart.
+  Dark-theme variant. See logo.svg for the light-theme counterpart.
 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#3c3c43" role="img" aria-label="Glycerine Aksara">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#dfdfd6" role="img" aria-label="Glycerine Aksara">
   <path d="M19,3.25H6.75A2.43,2.43,0,0,0,4.25,5.6V18a2.85,2.85,0,0,0,2.94,2.75H19a.76.76,0,0,0,.75-.75V4A.76.76,0,0,0,19,3.25Zm-.75,16H7.19A1.35,1.35,0,0,1,5.75,18a1.35,1.35,0,0,1,1.44-1.25H18.25Zm0-4H7.19a3,3,0,0,0-1.44.37V5.6a.94.94,0,0,1,1-.85h11.5Z" />
   <path d="M8.75,8.75h6.5a.75.75,0,0,0,0-1.5H8.75a.75.75,0,0,0,0,1.5Z" />
   <path d="M8.75,12.25h6.5a.75.75,0,0,0,0-1.5H8.75a.75.75,0,0,0,0,1.5Z" />

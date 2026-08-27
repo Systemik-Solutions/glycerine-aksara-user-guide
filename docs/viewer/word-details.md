@@ -1,7 +1,7 @@
 # Word and Lemma Details
 
 With the header set to **Token** scope, selecting a word opens its lexical record in the Details
-pane. Every aksara of the word highlights on the image at once.
+pane. Every akṣara of the word highlights on the image at once.
 
 ![Token scope: viñaṇa selected, with its glossary string, lemma fields, and inflection tab](/images/viewer/token-details.jpg)
 

@@ -58,9 +58,9 @@ Then, as on the image pane:
 ## The Details pane
 
 Selecting anything opens **Details** alongside the text — on the right in top-bottom layout, below
-in left-right layout. What it holds depends on the scope: a single aksara and its cut-out in
+in left-right layout. What it holds depends on the scope: a single akṣara and its cut-out in
 Syllable scope, or the lemma and inflection of a whole word in Token scope. See
-[Inspecting an Aksara](/viewer/inspecting-aksaras) and
+[Inspecting an Akṣara](/viewer/inspecting-aksaras) and
 [Word and Lemma Details](/viewer/word-details).
 
 It opens by itself when you select something in the transliteration, and collapses when you switch
