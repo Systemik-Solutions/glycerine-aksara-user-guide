@@ -21,7 +21,12 @@ The full canonical list. Search by **Lemma** or by **Sanskrit** — the second i
 checking whether a word already exists under a different Gāndhārī form. The dropdown filters the
 list, and **New lemma** creates a canonical lemma directly, without anyone having to submit one.
 
-Selecting a lemma opens it for editing, with the same fields contributors see.
+Rows are annotated with what matched — `Skt. evam · adv.` — so a Sanskrit search shows you which
+Gāndhārī form you are looking at before you open it.
+
+Selecting a lemma opens it for editing, with the same fields contributors see. Its **Related
+lemmas** list — the lemmas sharing a Sanskrit cognate with it — keeps deprecated relatives and tags
+them, so the whole family is visible before you change anything.
 
 **Deprecate** retires a lemma without deleting it: existing tokens keep their link and it still
 displays, but it can no longer be chosen for new ones. **Restore** reverses this. Deprecating is the

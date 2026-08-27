@@ -48,6 +48,11 @@ The headword, a translation, a homograph number distinguishing identical spellin
 to an external dictionary, and a list of **cognates** — each a (language, form) pair rather than a
 free-text note, so that the Sanskrit or Pali comparandum is a queryable value.
 
+That is what the structure buys: the Editor searches lemmas by their `Skt.` cognate, and lists the
+lemmas that share one as **related** — the same word under different Gāndhārī spellings, which is
+otherwise the hardest thing in the lexicon to find. See
+[Related lemmas](/editor/lemmas#related-lemmas).
+
 ::: warning A cognate is not the same thing as a canonical lemma
 "Canonical" describes a lemma's *review status*. The Sanskrit or Pali form beside a Gāndhārī
 headword is a **cognate**, and a private lemma can have cognates just as a canonical one can. The

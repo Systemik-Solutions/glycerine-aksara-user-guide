@@ -63,7 +63,9 @@ writing's survival, recorded separately from any editorial intervention — it i
 ## Cognate
 
 A (language, form) pair recorded on a [lemma](#lemma) — the Sanskrit, Pali, or other comparandum. A
-structured value rather than a free-text note, so it can be queried.
+structured value rather than a free-text note, so it can be queried: the Editor searches lemmas by
+their `Skt.` cognate, and treats lemmas sharing one as
+[related](/editor/lemmas#related-lemmas).
 
 ## Collection
 

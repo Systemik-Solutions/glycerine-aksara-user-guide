@@ -9,7 +9,20 @@ across an edition.
 ## Choosing one
 
 In the token inspector, the **Lemma** field searches the lemmas available to you — the canonical
-ones, plus your own. **Details** opens the selected lemma; **+ New lemma** creates one.
+ones, plus your own, minus any that have been deprecated. **Details** opens the selected lemma;
+**+ New lemma** creates one.
+
+The dropdown searches in two modes, switched at the top of the open list:
+
+| | |
+| --- | --- |
+| **Lemma** | Matches the Gāndhārī headword |
+| **Sanskrit** | Matches the lemma's `Skt.` cognate, and labels each row with the form that matched |
+
+Both match from the *start* of the value, not anywhere inside it. Sanskrit mode is what you want when
+you know the word but not how this edition spells it — it is the reason the cognate is a recorded
+value rather than a note. The mode stays where you put it as you work through one token after
+another; the search text does not.
 
 ## The fields
 
@@ -73,6 +86,24 @@ are not deleted, they simply become unlemmatised, and the confirmation warns you
 
 ## Related lemmas
 
-Where a lemma shares its headword with others — homographs — the form lists them, and each can be
-opened. Deprecated relatives are listed too, tagged as such, so you can see why a form you expected
-is not selectable.
+Below the **Link** field, **Related lemmas** lists every lemma sharing a **Sanskrit cognate** with
+this one — the same word under another Gāndhārī spelling. Each row gives the headword, the shared
+`Skt.` form, and the part of speech. Clicking one opens it; it does not change what the token is
+linked to.
+
+Matching is on the cognate value, trimmed and case-insensitive, but **diacritics count**: `evam` and
+`evaṃ` are two Sanskrit words, not two spellings of one. A lemma with no Sanskrit cognate has no
+relatives and the section does not appear at all — which is the usual reason it is missing.
+
+The list reflects *saved* cognates. A cognate you have just typed brings in no relatives until you
+save, and a lemma you have not yet created shows none.
+
+::: info The administrators' copy shows more
+Here the list is drawn from what a token could be linked to, so deprecated lemmas are left out. The
+same list in [lemma administration](/editor/canonical-lemmas) keeps them and tags them
+**Deprecated**, because nothing is being linked there and a deprecated relative is exactly what an
+administrator may need to act on.
+:::
+
+Homographs are a separate matter: identical headwords are told apart by the **Homograph order**
+field above, which has nothing to do with cognates.
