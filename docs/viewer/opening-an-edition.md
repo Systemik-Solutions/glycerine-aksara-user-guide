@@ -15,7 +15,7 @@ A Viewer link carries two query parameters:
 A complete link looks like this:
 
 ```
-https://<viewer-host>/?iiif-content=https://<host>/iiif/v3/texts/1&edition=1
+https://<viewer-host>/?iiif-content=https://<supabase-host>/functions/v1/iiif/v3/texts/1&edition=1
 ```
 
 Both parameters are read **once**, when the page loads. Editing the address bar afterwards does

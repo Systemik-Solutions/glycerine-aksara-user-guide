@@ -14,14 +14,15 @@ will not let you do.
         │
         └── Edition           one scholar's reading. A text can carry several
              │
-             ├── Akṣara ───── outlined on one image, spelled as graphemes
-             │      ▲
-             ├── Line ───────┘ an ordered run of akṣaras
-             │
-             ├── Token ─────► points at akṣaras; carries lemma + inflection
-             │                    │
-             └── Sequence ────────┘ nests, and groups tokens into units of text
+             ├── Akṣara      outlined on one image, spelled as graphemes —
+             │               the only layer that carries coordinates
+             ├── Line        → akṣaras: an ordered run of them
+             ├── Token       → akṣaras: a word; carries lemma + inflection
+             └── Sequence    → tokens: a unit of text, and nests
 ```
+
+`→` reads *points at*. Everything under Edition sits in one flat list of records; the arrows are the
+references between them, not containment.
 
 ## Collections and texts
 

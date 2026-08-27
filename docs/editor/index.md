@@ -10,7 +10,7 @@ you choose to publish it.
 
 ## What you work on
 
-The Editor holds four kinds of thing, each built out of the one before it:
+The Editor holds five kinds of thing, each built out of the one before it:
 
 | | What it is |
 | --- | --- |

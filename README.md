@@ -9,7 +9,7 @@ User guides for the two Glycerine Aksara applications:
 
 Both applications read from the same
 [Supabase backend](https://github.com/Systemik-Solutions/im-manuscripts-supabase), so the guides
-share a `concepts/` section covering the data model, editions, aksaras, and annotations.
+share a `concepts/` section covering the data model, editions, akṣaras, and annotations.
 
 Built with [VitePress](https://vitepress.dev).
 
@@ -29,8 +29,8 @@ docs/
 ├─ index.md              landing page — routes readers to the right guide
 ├─ viewer/               Viewer guide (public audience)
 ├─ editor/               Editor guide (contributing scholars)
-├─ concepts/             shared: data model, editions, aksaras, annotations, IIIF
-├─ reference/            glossary, keyboard shortcuts, troubleshooting
+├─ concepts/             shared: data model, editions, akṣaras, annotations, IIIF
+├─ reference/            glossary, troubleshooting, IIIF endpoints
 ├─ public/images/        screenshots and diagrams
 └─ .vitepress/
    ├─ config.mjs         nav, sidebar, search, deploy base path

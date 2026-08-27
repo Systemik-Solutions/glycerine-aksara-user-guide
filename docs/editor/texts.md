@@ -11,12 +11,13 @@ In [Manage](/editor/opening) → **Texts**, use **New text** at the foot of the 
 | --- | --- |
 | **Title** | Required. The name of the work — *Aṇatvalakṣaṇa-sutra* |
 | **CKM identifier** | The catalogue identifier — `RS22-02` |
-| **Reference** | The short form used in citations and attestation labels — `22-2.` |
+| **Reference** | The short form used in citations and attestation labels — `22-2` |
 | **Description** | Free text |
 
 Title and CKM identifier are shown together throughout the Editor and the Viewer, as
 `RS22-02 Aṇatvalakṣaṇa-sutra`. The **Reference** is what appears in the Viewer's attestation
-labels, so a word attested in this text is tagged `-22-2:14`, meaning *reference 22-2, line 14*.
+labels, which wrap it as `-22-2:14` — *reference 22-2, line 14*. Keep it bare: the leading dash and
+the colon are added for you.
 
 ## The tabs
 

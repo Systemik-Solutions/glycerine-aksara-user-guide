@@ -27,8 +27,8 @@ passes.
 In **Akṣaras** mode you draw an outline around each written sign and record which graphemes it is
 made of, together with how clearly it survives and what obscures it.
 
-This pass is about the *writing*, not the language. You are recording that this shape on the papyrus
-is `śu`, not deciding what word it belongs to.
+This pass is about the *writing*, not the language. You are recording that this shape on the birch
+bark is `śu`, not deciding what word it belongs to.
 
 → [Akṣaras and Graphemes](/editor/aksaras), [Text-Critical Marks](/editor/text-critical-marks)
 

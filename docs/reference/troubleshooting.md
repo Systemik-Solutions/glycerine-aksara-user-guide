@@ -121,6 +121,6 @@ Include, in this order:
 4. **Whether it repeats** on a reload, in a private window, and in another browser.
 5. **A screenshot**, if anything was visibly wrong on screen.
 
-The last point matters more than it looks: a fault that survives a private window is a fault in the
+The fourth point matters more than it looks: a fault that survives a private window is a fault in the
 data or the application, while one that does not is local to your browser session, and the two are
 investigated quite differently.

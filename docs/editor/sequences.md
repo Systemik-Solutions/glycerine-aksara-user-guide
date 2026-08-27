@@ -12,16 +12,16 @@ The bottom pane in **Sequences** mode is the hierarchy, with **Collapse all**, *
 **New sequence** above it. A typical edition looks like:
 
 ```
-text Structure for RS22-02
-└── Sūtra
-    ├── A
-    │   ├── (no label)     3 tokens
-    │   └── …
+Sūtra
+├── A
+│   ├── (no label)     3 tokens
+│   └── (no label)     5 tokens
+└── B
     └── …
 ```
 
-Each row shows its label and either its child count or its token count. A sequence holds children or
-tokens — the leaves are where tokens live.
+Each row shows its label and its counts — `3 tokens`, `2 child sequences`, or both. Tokens live on
+the leaves.
 
 An unlabelled unit shows as **(no label)**, which is perfectly normal: a paragraph inside a titled
 section often needs no name of its own.
