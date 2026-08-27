@@ -1,27 +1,51 @@
-# Canonical Lemmas
+# Canonical Lemmas and Review
 
-Linking a Gāndhārī lemma to its canonical Sanskrit or Pali headword.
+**Canonical lemmas** are the shared vocabulary: available to every user, maintained by
+administrators, and not editable by the contributors who use them. Every other lemma is private to
+the person who made it.
 
-## Why canonical lemmas exist
+This page describes the administrator's side. For submitting a lemma, see [Lemmas](/editor/lemmas).
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
+::: info Administrators only
+The **wrench** in the header appears only for administrator accounts. It carries a red dot while
+requests are waiting.
 :::
 
-## Linking to a canonical lemma
+## Lemma administration
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+The wrench → **Manage lemmas** opens a dialog with two scopes.
 
-## Creating a canonical lemma
+### Canonical lemmas
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+The full canonical list. Search by **Lemma** or by **Sanskrit** — the second is what you want when
+checking whether a word already exists under a different Gāndhārī form. The dropdown filters the
+list, and **New lemma** creates a canonical lemma directly, without anyone having to submit one.
 
-## Administering the canonical list
+Selecting a lemma opens it for editing, with the same fields contributors see.
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+**Deprecate** retires a lemma without deleting it: existing tokens keep their link and it still
+displays, but it can no longer be chosen for new ones. **Restore** reverses this. Deprecating is the
+right move for a lemma that turned out to be a misanalysis — deleting it would strip the link from
+every token that used it.
+
+### Review queue
+
+Pending submissions, filterable by status. Each row shows the lemma and who submitted it; selecting
+one shows the lemma's full fields, the submitter's note, and a box for your own note back.
+
+**Approve** makes the lemma canonical. The confirmation names the submitter and warns that they will
+lose the ability to edit or delete it — worth reading, because it is not reversible from their side.
+
+**Reject** returns it with your note. Give a reason: rejection is often "there is already a canonical
+lemma for this", which the submitter can act on, and the note is the only place they will see it.
+
+Either way the submitter is [notified](/editor/notifications).
+
+## What reviewers are checking
+
+- Is it a real dictionary word rather than a one-off reading?
+- Does a canonical lemma for it already exist, perhaps under another spelling? Search the Sanskrit.
+- Are the part of speech, subpart, gender, and verbal class right? They determine which
+  [inflection fields](/editor/inflections) every future token gets.
+- Is the translation usable as a glossary gloss?
+- Does it need a **homograph order** to keep it apart from an existing headword?

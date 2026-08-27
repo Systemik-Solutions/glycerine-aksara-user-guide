@@ -1,39 +1,67 @@
-# Transcription Workflow
+# How an Edition Is Built
 
-The recommended order of work, from a blank image to a finished transcription.
+An edition is built in three passes, in this order. The order is not a house style — each pass
+consumes what the one before it produced, so there is no way to do them out of sequence.
 
-## Overview of the workflow
+```
+     the manuscript image
+              │
+   ① Akṣaras  │  outline each sign, spell it as graphemes
+              ▼
+     akṣaras with graphemes
+              │
+   ② Tokens   │  group graphemes into words; assign lemma + inflection; place in lines
+              ▼
+     tokens on numbered lines
+              │
+   ③ Sequences│  arrange tokens into the structure of the text; translate each unit
+              ▼
+     a readable edition
+```
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+The three [modes](/editor/workspace#the-three-modes) in the header correspond exactly to these three
+passes.
 
-## Step 1 — mark lines
+## ① Akṣaras — what is written
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+In **Akṣaras** mode you draw an outline around each written sign and record which graphemes it is
+made of, together with how clearly it survives and what obscures it.
 
-## Step 2 — create tokens
+This pass is about the *writing*, not the language. You are recording that this shape on the papyrus
+is `śu`, not deciding what word it belongs to.
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+→ [Akṣaras and Graphemes](/editor/aksaras), [Text-Critical Marks](/editor/text-critical-marks)
 
-## Step 3 — read aksaras
+## ② Tokens and lines — what the words are
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+In **Tokens & Lines** mode you click the akṣaras that make up a word and create a **token** from
+them: its lemma, its inflection, and the line it sits on.
 
-## Step 4 — attach lemmas
+Words do not respect akṣara boundaries — sandhi routinely puts the end of one word and the start of
+the next in a single sign — so a token is defined as a *run of graphemes*, and you can trim it to
+start or end mid-akṣara. One akṣara can be shared between two tokens.
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+→ [Tokens and Lines](/editor/tokens), [Lemmas](/editor/lemmas), [Inflections](/editor/inflections)
 
-## Step 5 — review
+## ③ Sequences — what the text says
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+In **Sequences** mode you arrange the tokens into the structure of the work — sūtra, section, verse
+— and attach a translation and chāyā to each unit.
+
+→ [Sequences](/editor/sequences)
+
+## You do not have to finish one pass before starting the next
+
+Nothing forces the passes to be completed in turn, and in practice they interleave: you outline a
+line, lemmatise it, and move on. The dependency is per-akṣara, not per-edition — you cannot make a
+token from an akṣara you have not drawn yet, but the rest of the manuscript can wait.
+
+## What the reader gets
+
+Each pass shows up somewhere in the [Viewer](/viewer/):
+
+| You made | The reader sees |
+| --- | --- |
+| Akṣaras | The transliteration, the image outlines, the [paleography view](/viewer/paleography-view) |
+| Tokens | Word selection, the [glossary](/viewer/glossary-view), attestation links |
+| Sequences | The Structure display, and the report's sequences section |

@@ -1,27 +1,32 @@
 # Collections
 
-Grouping related manuscripts and texts into a collection.
+A **collection** is a named group of texts — a scroll, a find, a project. Collections are a
+convenience for organising your own material; they do not affect editions, publication, or anything
+the Viewer shows.
 
-## Creating a collection
+## Managing them
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+In [Manage](/editor/opening), switch the header from **Texts** to **Collections**. The list on the
+left holds your collections; **New collection** is at its foot.
 
-## Adding texts to a collection
+A collection has a **Name** (required) and a **Description**, plus a **Public** switch and a **⋮**
+menu for deletion.
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+## Putting texts in
 
-## Editing collection details
+There are two directions, and they do the same thing:
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+- From the **collection**: its detail view lists the texts it contains, and a text can be opened
+  from there — the dialog switches to the Texts scope with that text selected.
+- From the **text**: the **Collections** tab on any text sets which collections it belongs to.
 
-## Sharing a collection
+A text can be in several collections at once.
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+## Filtering by collection
+
+The main reason to bother. The **Collection** dropdown above the texts list narrows it to one
+collection, which is what makes a long list of manuscripts workable.
+
+## Deleting a collection
+
+Deleting a collection removes the grouping only. The texts in it are untouched.

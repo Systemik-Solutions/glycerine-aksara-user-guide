@@ -1,33 +1,54 @@
 # The Workspace at a Glance
 
-A tour of the editing workspace and how its panes fit together.
+The Editor is one screen: a header, and three panes that always keep their places.
 
-## The image pane
+![The Editor in Akṣaras mode: manuscript image top left, akṣara table below, akṣara editor on the right](/images/editor/aksara-mode.jpg)
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+- **Top left — the image.** The manuscript, deep-zoomable, with every akṣara of the current edition
+  outlined on it.
+- **Bottom left — the transcription pane.** What the edition says.
+- **Right — the inspector.** Whatever you currently have selected.
 
-## The transcription pane
+All three dividers can be dragged.
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+## The three modes
 
-## The right-hand inspector
+The switch in the middle of the header is the most important control in the Editor. It changes what
+the bottom and right panes contain — and, with them, what a click on the image means.
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+| Mode | Bottom pane | Right pane | Clicking the image |
+| --- | --- | --- | --- |
+| **Akṣaras** | The akṣara table, one row per sign | The akṣara editor | Selects one akṣara to edit |
+| **Tokens & Lines** | The transcription, line by line | The token inspector | Picks akṣaras to build a word from |
+| **Sequences** | The sequence tree | The sequence inspector | — |
 
-## Switching between editing modes
+The image pane never changes place, but the outlines on it are recoloured to suit the mode. In
+Tokens & Lines, for instance, they are shaded by how much of each akṣara has already been used by a
+word.
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+**Switching modes clears the current selection**, deliberately — a selected akṣara and a selected
+token are different kinds of thing. If you have unsaved changes, you are asked before the switch
+goes through.
 
-## Saving your work
+## The header
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+**Left** — the folder icon opens [Manage](/editor/opening), where texts, editions, images, and
+collections live. Beside it, the text you have open and, under it in smaller type, the edition.
+
+**Right** —
+
+| Control | What it does |
+| --- | --- |
+| **i** — Edition properties | Jumps straight to this edition's form in Manage |
+| **Share** | Opens the edition in the [Viewer](/editor/viewer-preview), or its report |
+| **Wrench** | [Lemma administration](/editor/canonical-lemmas) — administrators only |
+| **Bell** | [Notifications](/editor/notifications) |
+| **Avatar** | Change password, log out |
+
+## Saving
+
+Nothing in the Editor saves as you type. Each inspector has its own **Save** and **Cancel**, and
+until you press Save the change exists only on screen.
+
+Anything that would throw a draft away — switching mode, switching edition, closing Manage —
+stops and asks first.

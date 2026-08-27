@@ -1,29 +1,43 @@
 # About the Editor
 
-The Glycerine Aksara Editor is the workbench for creating editions of Gāndhārī manuscripts. You
-upload manuscript images, mark up what you read on them, attach lexical information, and publish the
-result to the [Viewer](/viewer/).
+The Glycerine Aksara Editor is where an edition of a Gāndhārī manuscript is made. You outline each
+akṣara on the manuscript image, say which graphemes it is written with, group those akṣaras into
+words, and arrange the words into the structure of the text. What comes out the other end is what
+readers see in the [Viewer](/viewer/).
 
-The Editor requires an account. See [Accounts and Signing In](/editor/accounts).
+Unlike the Viewer, the Editor requires an account, and everything you create belongs to you until
+you choose to publish it.
 
-## What you can do
+## What you work on
 
-- Organise material into [collections](/editor/collections), [texts](/editor/texts), and
-  [editions](/editor/editions).
-- [Upload manuscript images](/editor/images) and have them prepared for deep zoom.
-- Transcribe a manuscript by marking [lines](/editor/lines), [tokens](/editor/tokens), and
-  [aksaras](/editor/aksaras) directly on the image.
-- Attach [lemmas](/editor/lemmas) and link them to [canonical headwords](/editor/canonical-lemmas).
-- [Publish an edition](/editor/publishing) for public reading.
+The Editor holds four kinds of thing, each built out of the one before it:
+
+| | What it is |
+| --- | --- |
+| **Text** | A manuscript — its CKM identifier, its title, and its images |
+| **Edition** | One scholar's reading of that text. A text can carry several |
+| **Akṣara** | One written sign, outlined on the image and spelled as a sequence of graphemes |
+| **Token** | A word: a run of graphemes drawn from one or more akṣaras, with a lemma and inflection |
+| **Sequence** | An editorial unit — a section, a verse — built from tokens, carrying translation and chāyā |
+
+The chain matters. Tokens are made *from* akṣaras, and sequences *from* tokens, so the order of work
+is fixed: outline before you lemmatise, lemmatise before you structure. See
+[How an Edition Is Built](/editor/transcription-workflow).
+
+## What is shared and what is yours
+
+Most of what you make is private to you and to the edition you made it in. Two things are not:
+
+- **The grapheme catalogue** and the vocabularies for clarity, obscuration, text-critical marks, and
+  grammar are fixed reference data, the same for everyone.
+- **Lemmas** start private but can be promoted. A lemma you create is yours alone until you submit
+  it for review; if an administrator approves it, it becomes *canonical* — available to every user,
+  and no longer editable by you. See [Lemmas](/editor/lemmas).
 
 ## Where to start
 
-New contributors should read [Accounts and Signing In](/editor/accounts), then
-[The Workspace at a Glance](/editor/workspace), then follow the
-[Transcription Workflow](/editor/transcription-workflow) end to end on a single page before taking
-on a full manuscript.
-
-## Related
-
-- [Core Concepts](/concepts/) — the model your editorial decisions are recorded in.
-- [How Editions Appear in the Viewer](/editor/viewer-preview) — what readers see.
+- New to the Editor: [Signing In](/editor/accounts), then
+  [The Workspace at a Glance](/editor/workspace).
+- Starting a new manuscript: [Texts](/editor/texts) → [Images](/editor/images) →
+  [Editions](/editor/editions).
+- Ready to transcribe: [How an Edition Is Built](/editor/transcription-workflow).
