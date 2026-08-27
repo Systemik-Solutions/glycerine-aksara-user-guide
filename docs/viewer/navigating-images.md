@@ -1,33 +1,73 @@
 # Navigating the Image
 
-How to pan, zoom, and move between the pages or fragments of a manuscript.
+The image pane is a deep-zoom viewer over the manuscript photography. It opens fitted to the width
+of the pane and aligned to the top of the image.
 
-## Zooming
+## Moving around
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
+| To do this | Do this                                      |
+| ---------- | -------------------------------------------- |
+| Zoom       | Scroll wheel, or pinch on a trackpad          |
+| Pan        | Drag the image                                |
+| Select     | Click an outlined aksara                      |
+| Deselect   | Click anywhere on the image outside an aksara |
+
+A single click never zooms — it is reserved for selecting, so that clicking an aksara to read it
+does not also move the image under you.
+
+## Outlines and labels
+
+Open **Image settings** (the gear on the image pane toolbar) for two switches:
+
+**Outlines** draws a box or polygon around every aksara the edition records on this canvas. This is
+how you see the editor's segmentation: where one aksara was judged to end and the next to begin,
+and — where the surface is lost — how many aksaras the restoration assumes. Reconstructed aksaras
+with nothing left on the surface show as empty boxes in a row, so a long lacuna is visible as
+exactly the number of signs the editor claims for it.
+
+**Syllable transliterations** prints each aksara's reading over the image.
+
+Both are off by default and reset when you reload the page.
+
+::: tip
+With Syllable transliterations on but Outlines off, labels appear only for the aksara you are
+hovering or have selected. That keeps the image clean while still telling you what you are pointing
+at.
 :::
 
-## Panning
+## Hovering and selecting
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+Hovering an aksara highlights it in blue, and simultaneously highlights the matching syllable in the
+transliteration. Clicking selects, in amber, and opens the Details pane.
 
-## Moving between canvases
+What gets highlighted depends on the scope set in the header: in **Syllable** scope, one aksara; in
+**Token** scope, every aksara of the whole word. See
+[Reading the Transliteration](/viewer/transliteration#syllable-scope-and-token-scope).
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+Selection also works in the other direction. Clicking a syllable in the text pans the image to
+centre the corresponding aksara — and if that aksara is on a different fragment, the Viewer switches
+canvases to get there.
 
-## Full-screen reading
+## Moving between fragments
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+When an edition has more than one canvas, a strip of thumbnails runs along the edge of the image
+pane — down the side in top-bottom layout, along the bottom in left-right. Click a thumbnail to
+switch. If there are more thumbnails than fit, arrows appear at each end of the strip, and the strip
+scrolls itself to keep the active canvas visible.
 
-## Resetting the view
+**Your position on each canvas is remembered.** Zoom into a detail on fragment 3, switch to fragment
+4, come back — you return to the same zoom and the same spot, for as long as the page stays loaded.
 
-::: info Not written yet
-This section is a placeholder. See the page outline above.
-:::
+## Filling the window
+
+The **Maximise** button at the bottom of either toolbar gives that pane the whole window; the same
+button, now **Restore**, gives the other pane back. Useful for close paleographic work on the image,
+or for reading a long translation.
+
+The layout and reverse controls in the header are disabled while a pane is maximised — restore
+first.
+
+## Related
+
+- [Inspecting an Aksara](/viewer/inspecting-aksaras) — enlarging a single sign.
+- [Paleography View](/viewer/paleography-view) — comparing one sign across the whole manuscript.

@@ -33,6 +33,7 @@ export default defineConfig({
           text: 'Getting Started',
           items: [
             { text: 'About the Viewer', link: '/viewer/' },
+            { text: 'Opening an Edition', link: '/viewer/opening-an-edition' },
             { text: 'The Viewer at a Glance', link: '/viewer/interface' },
           ],
         },
@@ -41,8 +42,9 @@ export default defineConfig({
           items: [
             { text: 'Navigating the Image', link: '/viewer/navigating-images' },
             { text: 'Reading the Transliteration', link: '/viewer/transliteration' },
+            { text: 'Translation and Chāyā', link: '/viewer/translation-and-chaya' },
             { text: 'Inspecting an Aksara', link: '/viewer/inspecting-aksaras' },
-            { text: 'Manuscript Metadata', link: '/viewer/metadata' },
+            { text: 'Word and Lemma Details', link: '/viewer/word-details' },
           ],
         },
         {
@@ -50,6 +52,7 @@ export default defineConfig({
           items: [
             { text: 'Glossary View', link: '/viewer/glossary-view' },
             { text: 'Paleography View', link: '/viewer/paleography-view' },
+            { text: 'The Edition Report', link: '/viewer/edition-report' },
             { text: 'Sharing and Citing', link: '/viewer/sharing-and-citing' },
           ],
         },

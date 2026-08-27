@@ -1,27 +1,33 @@
 # About the Viewer
 
-The Glycerine Aksara Viewer is a public, read-only window onto the Gāndhārī manuscript corpus. It
-places a published edition beside the manuscript image it was made from, so you can check any
-reading against the writing surface itself.
+The Glycerine Aksara Viewer is the public, read-only face of the corpus. It puts a published edition
+beside the manuscript image it was made from, with every reading anchored to the piece of the
+writing surface it came from — so any claim in the edition can be checked against the birch bark
+without leaving the page.
 
-You do not need an account to use the Viewer.
+No account is needed. Anyone with the link can read.
 
-## What you can do
+## What it gives you
 
-- Zoom deep into high-resolution manuscript images and move between pages or fragments.
-- Read the transliterated text with each word tied to its place on the image.
-- Open a single aksara to see the sign, its reading, and the editor's judgement.
-- Browse an edition's vocabulary in the [glossary view](/viewer/glossary-view).
-- Compare the written forms of a sign across a manuscript in the
-  [paleography view](/viewer/paleography-view).
-- Link to a specific view and cite an edition in your own work.
+- **Deep-zoom images** of each fragment, with the aksaras of the edition outlined on the surface.
+- **A transliteration** in which every syllable is linked to its aksara. Click either one and the
+  other lights up.
+- **Three display modes** — diplomatic, hybrid, and reconstructed — over the same underlying record,
+  so you can read what is on the surface or what the editor restores, without switching documents.
+- **A glossary** of every lemma attested in the edition, with its attestations, and
+  **a paleography table** collecting every instance of each syllable as a cut-out from the image.
+- **An edition report**: the whole edition as one printable document.
 
 ## Where to start
 
-If this is your first visit, read [The Viewer at a Glance](/viewer/interface) for a tour of the
-panes, then [Navigating the Image](/viewer/navigating-images).
+If this is your first visit:
+
+1. [Opening an Edition](/viewer/opening-an-edition) — how a link resolves to a manuscript.
+2. [The Viewer at a Glance](/viewer/interface) — the panes and their toolbars.
+3. [Reading the Transliteration](/viewer/transliteration) — syllable scope, token scope, and the
+   display modes.
 
 ## Related
 
-- [Core Concepts](/concepts/) — what an edition is, and how aksaras are represented.
-- [Editor guide](/editor/) — if you want to create editions rather than read them.
+- [Core Concepts](/concepts/) — the model the Viewer presents.
+- [Editor guide](/editor/) — for creating editions rather than reading them.
