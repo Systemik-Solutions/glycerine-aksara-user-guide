@@ -1,6 +1,6 @@
 # About the Viewer
 
-The Glycerine Aksara Viewer is the public, read-only face of the corpus. It puts a published edition
+Glycerine Aksara Viewer is the public, read-only face of the corpus. It puts a published edition
 beside the manuscript image it was made from, with every reading anchored to the piece of the
 writing surface it came from — so any claim in the edition can be checked against the birch bark
 without leaving the page.
