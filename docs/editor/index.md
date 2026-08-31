@@ -1,6 +1,6 @@
 # About the Editor
 
-The Glycerine Aksara Editor is where an edition of a Gāndhārī manuscript is made. You outline each
+Glycerine Aksara Editor is where an edition of a Gāndhārī manuscript is made. You outline each
 akṣara on the manuscript image, say which graphemes it is written with, group those akṣaras into
 words, and arrange the words into the structure of the text. What comes out the other end is what
 readers see in the [Viewer](/viewer/).
