@@ -30,13 +30,6 @@ two tokens each claim part of it.
 So the editorial decision "where does this word end" never forces a decision about how to outline
 the writing. The two questions stay separate, which is the point.
 
-## One akṣara, several polygons
-
-An akṣara's outline is a *list* of polygons, not a single shape. A sign interrupted by a crack, a
-fibre gap, or the edge of a fragment is still one akṣara with one grapheme sequence — recorded as
-two or more disconnected regions. Nothing about the model asks a damaged sign to be either whole or
-absent.
-
 ## The vowel carrier
 
 The one piece of machinery in the model with no counterpart on the page.
