@@ -43,9 +43,8 @@ and its editor; the Viewer is only the display. See
 [Sharing and Citing](/viewer/sharing-and-citing#citing-an-edition).
 
 ::: info There is no co-editing
-An edition cannot be shared for joint authorship, and there is no way to transfer one to another
-account. Collaboration happens by publishing and citing, not by shared write access.
-:::
+An edition cannot have shared write access.  The ability to transfer one to another
+account or to clone an Edition for another account has not yet been implemented :::
 
 ## Versions and revisions
 
