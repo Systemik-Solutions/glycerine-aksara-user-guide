@@ -42,9 +42,9 @@ should name. The Viewer's report puts the editor in the masthead for this reason
 and its editor; the Viewer is only the display. See
 [Sharing and Citing](/viewer/sharing-and-citing#citing-an-edition).
 
-::: info There is no co-editing
-An edition cannot have shared write access.  The ability to transfer one to another
-account or to clone an Edition for another account has not yet been implemented :::
+::: No co-editing
+An edition cannot have shared write access.  The ability to transfer an edition to another
+account has not yet been implemented :::
 
 ## Versions and revisions
 
@@ -64,6 +64,9 @@ produces.
 If a revision is substantial enough that the old reading should remain available, the model's own
 answer is to make a *new edition* of the same text rather than overwrite the old one. Editions are
 cheap, and the text will happily carry both.
+
+::: Cloning
+The ability to clone an Edition for another account has not yet been implemented :::
 
 ## Related
 
