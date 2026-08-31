@@ -6,7 +6,7 @@ The Editor is one screen: a header, and three panes that always keep their place
 
 - **Top left — the image.** The manuscript, deep-zoomable, with every akṣara of the current edition
   outlined on it.
-- **Bottom left — the transcription pane.** What the edition says.
+- **Bottom left — the akṣara pane.** All currently outlined akṣara segments.
 - **Right — the inspector.** Whatever you currently have selected.
 
 All three dividers can be dragged.
