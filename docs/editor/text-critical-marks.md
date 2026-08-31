@@ -34,12 +34,6 @@ while `{{ }}` is the scribe having struck it out.
 
 Choosing a mark again clears it.
 
-## Marks you cannot set
-
-The vocabulary in the database is larger than the six pills. If an akṣara carries a mark from
-outside the exposed set, the pane shows it as read-only text — **Current mark: …** — rather than
-silently dropping it. You can leave it alone or replace it with one of the six.
-
 ## Clarity is not a mark
 
 [Clarity](/editor/aksaras) and obscuration are akṣara properties, not text-critical marks. Clarity
