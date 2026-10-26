@@ -21,8 +21,8 @@ names a manifest on the same base.
 
 | Endpoint | Returns |
 | --- | --- |
-| `/collections/{id}` | **Collection** — the texts in a collection |
-| `/texts/{id}` | **Manifest** — one text, its canvases, its metadata, its editions |
+| `/collections/{id}` | **Collection** — the texts in a collection, in the [order set in the Editor](/editor/collections#ordering-the-texts) |
+| `/texts/{id}` | **Manifest** — one text, its canvases, its metadata (including [custom metadata](/editor/texts#metadata)), its editions |
 | `/editions/{id}` | **AnnotationCollection** — one edition |
 
 A manifest is the normal place to start: it names everything else. It is also what the Viewer opens.

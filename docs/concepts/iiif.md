@@ -43,7 +43,7 @@ The vocabulary is worth learning once, because it is what the URLs and the API a
 | Line, token, sequence, lemma, inflection | Annotation, `linking`, targeting other annotations |
 
 A **manifest** is the unit a viewer opens: one text, with its images as canvases in order, its CKM
-designation and reference as metadata, and each edition's annotations hanging off the canvases as an
+designation, reference, and any [custom metadata](/editor/texts#metadata) as metadata, and each edition's annotations hanging off the canvases as an
 annotation collection.
 
 This is why the Viewer takes a manifest URL rather than a text identifier. Its address bar reads:

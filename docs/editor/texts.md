@@ -19,9 +19,32 @@ Title and CKM identifier are shown together throughout the Editor and the Viewer
 labels, which wrap it as `-22-2:14` — *reference 22-2, line 14*. Keep it bare: the leading dash and
 the colon are added for you.
 
+## Metadata
+
+Below the Description, the Overview tab has a **Metadata** section for anything the fixed fields do
+not cover — script, material, findspot, dimensions. Each entry is a **property** with one or more
+**values**:
+
+- **Add property** adds an entry; type its name in the *Property* box and its first value below.
+- **Add value** adds another value to the same property, for when there is more than one — two
+  scripts, say. **×** removes a value; the last one cannot be removed.
+- The bin icon removes the whole property.
+
+Values are multi-line, and line breaks are kept. Edits are saved with the rest of the form by
+**Save**, and **Cancel** discards them.
+
+A property needs a name and at least one value, and each name can be used only once per text
+(capitals are ignored when comparing). **CKM** and **Reference** are reserved, because the fields
+above already supply them. While an entry breaks one of these rules its error is shown under it and
+Save stays disabled. An entry with neither a name nor a value is simply ignored.
+
+The metadata is published in the text's [manifest](/reference/iiif-api#entry-points), after the CKM
+identifier and reference, in the order shown in the Editor, with all of a property's values
+together. The Viewer does not display it yet.
+
 ## The tabs
 
-- **Overview** — the fields above.
+- **Overview** — the fields above, and the metadata.
 - **[Editions](/editor/editions)** — the readings made from this manuscript.
 - **[Images](/editor/images)** — the manuscript images themselves.
 - **[Collections](/editor/collections)** — which collections this text belongs to.
