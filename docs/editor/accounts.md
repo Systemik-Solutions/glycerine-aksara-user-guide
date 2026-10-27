@@ -30,6 +30,11 @@ or cancel first.
 
 Most accounts are contributors: you create texts, editions, and lemmas of your own.
 
-Administrators additionally get a **wrench** icon in the header, which opens
-[lemma administration](/editor/canonical-lemmas) — the canonical lemma list and the review queue.
-The wrench carries a red dot when requests are waiting.
+Administrators additionally get a **wrench** icon in the header, which opens the admin menu:
+
+- **Manage lemmas** — [lemma administration](/editor/canonical-lemmas), the canonical lemma list
+  and the review queue.
+- **Ink masks** — [generating ink masks](/editor/ink-masks#generating-masks-administrators) for
+  images.
+
+The wrench carries a red dot when lemma requests are waiting.

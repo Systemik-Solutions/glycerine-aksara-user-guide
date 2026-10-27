@@ -12,6 +12,10 @@ progress, and a failed upload can be retried or dismissed without disturbing the
 Uploaded images are tiled for deep zoom, so a large plate can be inspected at full resolution
 without the whole file being downloaded.
 
+Each upload also queues an [ink mask](/editor/ink-masks) for the image, which is what
+[Fit to ink](/editor/aksaras#fitting-the-outline-to-the-ink) works from. It is ready a few minutes
+later.
+
 ## Naming and ordering
 
 Each image card carries its name, a pencil to edit it, and a trash icon.
@@ -28,7 +32,7 @@ sequence of the manuscript.
 
 The trash icon deletes an image. The confirmation warns you when akṣaras have been drawn on it,
 because those akṣaras go with it — in every edition of the text, not just the one you have open.
-This cannot be undone.
+Its ink mask goes too. This cannot be undone.
 
 ## When changes appear in the workspace
 

@@ -32,8 +32,46 @@ An on-screen prompt repeats this while the tool is armed, along with **Cancel dr
 
 Trace the ink rather than boxing it. The outline is what the Viewer cuts out for the paleography
 view and the akṣara inspector, so a tight outline gives a usable sign chart and a loose one does not.
+If the image has an [ink mask](/editor/ink-masks), the Editor can do the tracing for you — see
+[Fitting the outline to the ink](#fitting-the-outline-to-the-ink).
 
 Completing the shape opens the akṣara editor on the right.
+
+## Fitting the outline to the ink
+
+When the image has an [ink mask](/editor/ink-masks), the akṣara editor opens with an **Outline**
+section above the grapheme sequence. Images without one do not show the section; draw by hand as
+above.
+
+**Fit to ink** replaces the shape you drew with a single outline traced around the ink inside it. So
+the drawing can be quick: a rough polygon that takes in the whole sign and nothing else is enough.
+
+- Only ink **inside** your shape counts. Take in the whole sign — detached vowel signs and anusvāra
+  included — but keep the neighbouring signs out.
+- Separate parts of the sign are joined into one outline, holes are filled, and small specks are
+  ignored.
+- The first fit on an image can take a moment while its mask downloads. Later fits are immediate.
+
+Once fitted, the button is disabled — *Already fitted — adjust the threshold in Fit settings*. Drag
+a vertex and it becomes available again, fitting from your edited shape. **Revert** puts back the
+shape you had before fitting.
+
+**Fit settings**, collapsed by default:
+
+| | |
+| --- | --- |
+| **Threshold** | How sure the mask must be that a pixel is ink, `0.05`–`0.95`, default `0.50`. Lower gives fuller outlines but more stray marks; higher gives tighter outlines but may drop faint strokes. Moving it re-fits from the shape you drew, not from the last result. It returns to `0.50` when the page is reloaded |
+| **Auto-fit after drawing** | Fits as soon as you close a new shape. Remembered in this browser |
+
+*No ink detected at this threshold* leaves your shape as it was — lower the threshold, or draw a
+larger shape.
+
+Nothing is stored until **Save**; a fitted outline is saved exactly like a hand-drawn one.
+
+::: info When Fit to ink is not available
+If the mask is still being made, or failed, the Outline section says so in place of the buttons. See
+[Ink Masks](/editor/ink-masks#what-contributors-see).
+:::
 
 ## Filling in the editor
 
@@ -60,6 +98,9 @@ Then **Save**.
 Click its outline on the image, or a cut-out in the akṣara table. The editor opens on it, and the
 outline grows **vertex handles** — drag them to correct the shape. Geometry and graphemes are saved
 together by the pane's **Save**.
+
+[Fit to ink](#fitting-the-outline-to-the-ink) works here too, taking the existing outline as the
+area to search. An akṣara outlined in several parts comes back as a single outline.
 
 **Delete** removes the akṣara. Any token using its graphemes loses them.
 

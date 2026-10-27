@@ -76,6 +76,7 @@ export default defineConfig({
             { text: 'Texts', link: '/editor/texts' },
             { text: 'Editions', link: '/editor/editions' },
             { text: 'Images', link: '/editor/images' },
+            { text: 'Ink Masks', link: '/editor/ink-masks' },
             { text: 'Collections', link: '/editor/collections' },
           ],
         },

@@ -109,6 +109,12 @@ case, number, gender, person, tense, and voice that part of speech admits. It ho
 and which fields appear is computed from the part of speech. Shared across editions like a
 [lemma](#lemma). See [Inflections](/editor/inflections).
 
+## Ink mask
+
+A per-image map, made by a machine-learning model, of how likely each pixel is to be ink. Used only
+by the Editor's **Fit to ink**, to trace akṣara outlines; it is not part of an edition. See
+[Ink Masks](/editor/ink-masks).
+
 ## Lemma
 
 The dictionary headword a [token](#token) is filed under, with its translation, homograph number,

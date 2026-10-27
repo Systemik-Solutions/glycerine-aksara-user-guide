@@ -41,7 +41,7 @@ collections live. Beside it, the text you have open and, under it in smaller typ
 | --- | --- |
 | **i** — Edition properties | Jumps straight to this edition's form in Manage |
 | **Share** | Opens the edition in the [Viewer](/editor/viewer-preview), or its report |
-| **Wrench** | [Lemma administration](/editor/canonical-lemmas) — administrators only |
+| **Wrench** | Admin menu: [lemma administration](/editor/canonical-lemmas) and [ink masks](/editor/ink-masks#generating-masks-administrators) — administrators only |
 | **Bell** | [Notifications](/editor/notifications) |
 | **Avatar** | Change password, log out |
 

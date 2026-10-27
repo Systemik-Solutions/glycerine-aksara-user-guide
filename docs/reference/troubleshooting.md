@@ -79,6 +79,27 @@ image.
 If a count and a table disagree, that gap is the reason. Such an akṣara cannot be selected from the
 image either; the practical fix is to re-record it.
 
+## Fit to ink is missing or does not work
+
+**No Outline section at all.** The image has no [ink mask](/editor/ink-masks). New uploads get one
+automatically; for older images, ask an administrator to generate one.
+
+**"Queued" or "being generated".** The mask is on its way. Close the akṣara editor and open it again
+in a few minutes; the state is checked each time it opens.
+
+**"Generation failed".** An administrator needs to regenerate the mask from the wrench → **Ink
+masks**, where the **Error** column gives the reason.
+
+**An error with Retry.** The mask could not be downloaded or read. **Retry** tries again; drawing and
+saving are unaffected meanwhile.
+
+**"Mask doesn't match this image".** The mask was made for an image of different proportions. It
+cannot be used and needs regenerating.
+
+**"No ink detected at this threshold".** Your shape is unchanged. Lower the threshold in **Fit
+settings**, or draw a larger shape — only ink inside it is considered. See
+[Fitting the outline to the ink](/editor/aksaras#fitting-the-outline-to-the-ink).
+
 ## I cannot find a grapheme in the picker
 
 **Search for one grapheme, not a syllable.** The catalogue holds individual graphemes only, so `sa`,
